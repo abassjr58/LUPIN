@@ -6,8 +6,11 @@ a.nav-link:hover{
 }
 
 .carousel-item img{
-  min-height: 400px;
-  height: 600px;
+  min-height: 200px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
+}
+footer .nav{
+  flex-direction: column;
 }
