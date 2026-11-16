@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #Title{
+            opacity: 0;
+            transition: all 4s ease-in-out;
+            
+        }
+        
+    </style>
+</head>
+<body>
+     <div className="testme">
+            <h4 id="Title">Title</h4>
+
+           
+
+            <button id="Click" >hover me to make title show</button>
+        </div>
+
+
+
+        <script>
+            button=document.getElementById("Click");
+            title=document.getElementById("Title");
+
+
+            button.onmouseenter=()=>{
+                title.style.opacity="1";
+            }
+
+            button.onmouseleave=()=>{
+                title.style.opacity="0";
+            }
+        </script>
+</body>
+</html>
