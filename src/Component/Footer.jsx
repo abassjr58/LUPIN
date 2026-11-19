@@ -12,7 +12,7 @@ const Footer = () => {
         <Row/>
 
         <Col>
-         <img src="Lupin.png" alt="Logo"  height={100} width={180}  />
+         <img src="lupin.favicon.png" alt="Logo"  height={100} width={180}  />
         
         <p>Your ultimate destination for the best movies and shows</p>
         </Col>

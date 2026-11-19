@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-black">
+    <Navbar  sticky="top" expand="lg" className="bg-black">
       <Container>
         <Navbar.Brand href="/Home">
             <img src="lupin.favicon.png" alt="Logo" width={200} />

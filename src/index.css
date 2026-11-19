@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 a.nav-link{
   color: white;
 }
@@ -21,4 +25,77 @@ footer .nav{
 }
 .testme:h4{
   display: none;
+}
+
+
+
+.movie-card{
+  background-color: black;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.movie-card img{
+  width: 100%;
+  object-fit: contain ;
+}
+.movie-rating{
+  font-size: 14px;
+  padding: 8px;
+  z-index: 2;
+}
+.movie-overlay{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.movie-card:hover .movie-overlay{
+opacity: 1;
+}
+
+
+.movie-overlay .trailer{
+  border-radius: 25px;
+
+}
+
+.movie-overlay .buy {
+   
+    border: none;
+    background-color: #0d6efd;
+    color: aliceblue;
+   padding: 5px 20px;
+    border-radius: 5px;
+   text-align: center;
+    margin: 10px 10px;
+   
+
+}
+
+
+.movie-overlay .buy:hover {
+  background-color: black;
+  border: white 1px solid;
+}
+
+
+.movie-overlay a{
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.movie-overlay a:hover{
+  color: white;
+}
+
+.navbar-collapse{
+  flex-grow: 0;
+}
+.soon {
+  background-image: linear-gradient(to right, black, purple);
 }
