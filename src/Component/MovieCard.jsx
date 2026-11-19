@@ -35,7 +35,7 @@ const MovieCard = ({movie}) => {
 
 
         {/* Buy ticket */}
-   <div className='cot border-top border-secondary mt-3 py-1'>
+   <div className='border-top border-secondary mt-3 py-1'>
      <button className='buy'>Buy Ticket </button>
      </div>
     {/*More info */}
