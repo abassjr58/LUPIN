@@ -5,20 +5,26 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
-    <Navbar  sticky="top" expand="lg" className="bg-black">
+    <Navbar  sticky="top" expand="lg" className="bg-black"  >
       <Container>
-        <Navbar.Brand href="/Home">
+        <Navbar.Brand href="/">
             <img src="lupin.favicon.png" alt="Logo" width={200} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/Home">Home</Nav.Link>
-            <Nav.Link href="/About">About</Nav.Link>
-            <Nav.Link href="/Movies">Movies</Nav.Link>
-            <Nav.Link href="/Booking">Booking</Nav.Link>
-            <Nav.Link href="/Services">Services</Nav.Link>
-             <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/booking">Booking</Nav.Link>
+            <Nav.Link href="/service">Service</Nav.Link>
+             <Nav.Link href="/contact">Contact</Nav.Link>
+              <NavDropdown title="Movies" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/nowshowing">Now showing</NavDropdown.Item>
+              <NavDropdown.Item href="/comingsoon">
+                Coming soon
+              </NavDropdown.Item>
+              
+            </NavDropdown>
            <button style={{
              backgroundColor: 'goldenrod',
              color: 'white', 

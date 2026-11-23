@@ -75,6 +75,25 @@ const Footer = () => {
   
         </Col>
 
+        <Col>
+        <h5>Contact Us</h5>
+        <Nav> 
+          <Nav.Link 
+          href="https://www.facebook.com/filmoneng/" target=''>Facebook
+          </Nav.Link>
+          <Nav.Link
+           href="https://www.instagram.com/filmone_studios/" target=''>Instagram
+           </Nav.Link>
+          <Nav.Link
+           href="https://x.com/FilmOneng" target=''>Twitter
+           </Nav.Link>
+          <Nav.Link 
+          href="https://www.youtube.com/c/FilmOneNG" target=''>Youtube
+          </Nav.Link>
+        </Nav>
+        </Col>
+
+
       </Row>
 
     <Row className='border-top border-secondary mt-3 pt-3 py-4'>
@@ -96,6 +115,9 @@ const Footer = () => {
   
       
       </Col>
+
+
+      
     </Row>
 
     <Row className='border-top border-secondary mt-3 pt-3 py-4'>
