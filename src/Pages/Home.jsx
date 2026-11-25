@@ -1,8 +1,8 @@
 
 
-import NowShowing from "../Component/NowShowing";
-import ComingSoon from "../Component/Comingsoon";
-import Slider from "../Component/Slider";
+import NowShowing from "../Component/Home/NowShowing";
+import ComingSoon from "../Component/Home/Comingsoon";
+import Slider from "../Component/Home/Slider";
 
 const Home = () => {
   return (

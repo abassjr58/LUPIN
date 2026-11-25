@@ -4,7 +4,7 @@ import { CardSubtitle, Container } from 'react-bootstrap'
 const PageBanner = ({title,subtitle,backgroundImage}) => {
   return (
     <section className='page-banner' style={{ backgroundImage: 
-        `linear-gradient(to right, #000000f5, #f4a91d56),url(${backgroundImage}`}}>
+        `linear-gradient(to right, #00000096, #f4a91d9c),url(${backgroundImage}`}}>
     
         <Container>
         <div>

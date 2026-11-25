@@ -17,6 +17,7 @@ import Reportproblem from "./Pages/Reportproblem";
 import TvShows from "./Pages/TvShows";
 
 import Movies from "./Pages/Movies";
+import AboutUs from "./Pages/AboutUs";
 
 const App = () => {
   return (
@@ -37,8 +38,8 @@ const App = () => {
        <Route path="/bookingassistance" element={< BookingAssistance/>} />
        <Route path="/reportproblem" element={<Reportproblem />} />
       <Route path="/tvshows" element={<TvShows />} />
-  
     <Route path="/movies" element={<Movies />} />
+    <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
       <Footer />
     </BrowserRouter>
