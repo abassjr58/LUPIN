@@ -102,4 +102,25 @@ opacity: 1;
 }
 .soon {
   background-image: linear-gradient(to right, black, purple);
+ 
+}
+.me{
+  padding: 20px;
+}
+.you{
+  padding: 40px;
+}
+
+.page-banner{
+width: 100% ;
+min-height: 350px;
+background-size:cover ;
+background-position:center ;
+display: flex;
+align-items: center ;
+position: relative;
+color: antiquewhite;
+}
+.container-fluid {
+  padding: 80px;
 }

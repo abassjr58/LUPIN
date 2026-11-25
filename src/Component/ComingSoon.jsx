@@ -65,7 +65,7 @@ const ComingSoon = () => {
       <section className="coming soon text-white py-5 px-0">
         <Container fluid>
           <div>
-            <h2>ComingSoon</h2>
+            <h2 className='you'>Coming Soon</h2>
           </div>
 
           <Row>

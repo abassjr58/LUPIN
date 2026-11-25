@@ -133,6 +133,7 @@ const movies =  [
         rating:"PG-16",
         duration:"2h 30m",
         poster:"https://imgs.search.brave.com/yrP7Zge2rHqFuaCVTSadKehdbhdUDPV4Yemu9hU_dgA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDMvc3B5LXgtZmFt/aWx5LXNlYXNvbi0z/LW9mZmljaWFsLXBv/c3Rlci1mZWF0dXJp/bmctbG9pZC15b3It/YW55YS1hbmQtYm9u/ZC5qcGVnP3E9NDkm/Zml0PWNvbnRhaW4m/dz0xNDQ4Jmg9MjA0/OCZkcHI9Mg"
+        
         },
 
 
@@ -144,12 +145,12 @@ const movies =  [
 
         <div>
           <p>Experience the magic </p>
-          <h2>Now Showing</h2>
+          <h2 className='me'>Now Showing</h2>
         </div>
 
         <Row className=''>
           {movies.map((movie) => (
-            <Col lg={3} key={movie.id}>
+            <Col lg={2} key={movie.id}>
               <MovieCard movie={movie}/>
             </Col>
           ))}

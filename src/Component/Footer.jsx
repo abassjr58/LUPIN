@@ -21,16 +21,16 @@ const Footer = () => {
         <h5>Quick Links</h5>
         <Nav> 
           <Nav.Link 
-          href="/Home">Home
+          href="/">Home
           </Nav.Link>
           <Nav.Link
-           href="/Movies">Movies
+           href="/movies">Movies
            </Nav.Link>
           <Nav.Link
-           href="/TV Shows">TV Shows
+           href="/tvshows">TV Shows
            </Nav.Link>
           <Nav.Link 
-          href="/About Us">About Us
+          href="/aboutus">About Us
           </Nav.Link>
           <Nav.Link 
           href="/Contact">Contact
@@ -43,19 +43,19 @@ const Footer = () => {
         <h5>Support</h5>
         <Nav> 
           <Nav.Link 
-          href="/Help Center">Help Center
+          href="/helpcenter">Help Center
           </Nav.Link>
           <Nav.Link
-           href="/Terms of Service">Terms of Service
+           href="/bookingassistance">Booking assistance
            </Nav.Link>
           <Nav.Link
            href="/FAQs"> FAQs
            </Nav.Link>
           <Nav.Link 
-          href="/Privacy Policy">Privacy Policy
+          href="/privacypolicy">Privacy Policy
           </Nav.Link>
           <Nav.Link 
-          href="/Report a Problem">Report of a Problem
+          href="/reportproblem">Report problem
           </Nav.Link>
         </Nav>
         </Col>

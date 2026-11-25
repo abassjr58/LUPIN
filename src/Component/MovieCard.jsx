@@ -15,7 +15,7 @@ const MovieCard = ({movie}) => {
      <div className="movie-overlay ">
 
         <div className='text-center'>
-        <Button variant='danger' size='sm' className='trailer'>
+        <Button variant='danger' size='sm' className='trailer' >
             <span>▶</span> Play Trailer 
         </Button>
         </div>
